@@ -22,7 +22,7 @@ const Calculator = () => {
   };
 
   return (
-   <div className='container w-25 bg-dark m-5 p-5'>
+   <div className='container w-25 bg-dark m-5 p-5' style={{position:'absolute',left:'35%'}}>
       <div className="calculator">
         <div className="display">
           <input type="text" className='form-control' value={input} readOnly />
